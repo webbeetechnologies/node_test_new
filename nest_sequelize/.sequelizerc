@@ -1,0 +1,8 @@
+const path = require('path');
+
+module.exports = {
+  'env': 'production',
+  'config': path.resolve('src/config', 'sequelize_cli.json'),
+  'models-path': path.resolve('dist', '/../**/entities/*.entity.js'),
+  'migrations-path': path.resolve('dist/database', 'migrations')
+};
