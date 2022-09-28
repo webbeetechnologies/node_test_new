@@ -7,11 +7,12 @@ export class EventsService {
     return await Event.findAll();
   }
 
-  /*
+  /* TODO: complete getEventsWithWorkshops so that it returns all events including the workshops
     Requirements:
     - maximum 2 sql queries
     - verify your solution with `npm run test`
     - do a `git commit && git push` after you are done or when the time limit is over
+    - Don't post process query result in javascript
     Hints:
     - open the `src/events/events.service` file
     - partial or not working answers also get graded so make sure you commit what you have
@@ -87,7 +88,7 @@ export class EventsService {
     throw new Error('TODO task 1');
   }
 
-  /*
+  /* TODO: complete getFutureEventWithWorkshops so that it returns events with workshops, that have not yet started
     Requirements:
     - only events that have not yet started should be included
     - the event starting time is determined by the first workshop of the event
@@ -95,6 +96,7 @@ export class EventsService {
     - all filtering of records should happen in the database
     - verify your solution with `npm run test`
     - do a `git commit && git push` after you are done or when the time limit is over
+    - Don't post process query result in javascript
     Hints:
     - open the `src/events/events.service.ts` file
     - partial or not working answers also get graded so make sure you commit what you have

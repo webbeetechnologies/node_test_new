@@ -2,7 +2,7 @@ import { QueryInterface } from 'sequelize';
 
 export default {
   /**
-   # Create a migration that creates all tables for the following user stories
+   # ToDo: Create a migration that creates all tables for the following user stories
 
    For an example on how a UI for an api using this might look like, please try to book a show at https://in.bookmyshow.com/.
    To not introduce additional complexity, please consider only one cinema.

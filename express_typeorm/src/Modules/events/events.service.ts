@@ -14,7 +14,7 @@ export class EventsService {
     return await this.eventRepository.find();
   }
 
-  /*
+  /* TODO: complete getEventsWithWorkshops so that it returns all events including the workshops
     Requirements:
     - maximum 2 sql queries
     - verify your solution with `npm run test`
@@ -94,7 +94,7 @@ export class EventsService {
     throw new Error('TODO task 1');
   }
 
-  /*
+  /* TODO: complete getFutureEventWithWorkshops so that it returns events with workshops, that have not yet started
     Requirements:
     - only events that have not yet started should be included
     - the event starting time is determined by the first workshop of the event

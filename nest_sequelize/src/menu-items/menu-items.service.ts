@@ -9,7 +9,7 @@ export class MenuItemsService {
     private menuItemRepository: typeof MenuItem,
   ) {}
 
-  /*
+  /* TODO: complete getMenuItems so that it returns a nested menu structure
     Requirements:
     - your code should result in EXACTLY one SQL query no matter the nesting level or the amount of menu items.
     - it should work for infinite level of depth (children of childrens children of childrens children, ...)
