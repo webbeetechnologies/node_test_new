@@ -10,7 +10,7 @@ export const sequelizeConfig: SequelizeModuleOptions = {
   storage: 'database.db',
   models: [__dirname + '/../**/entities/*.entity.{js,ts}'],
   synchronize: false,
-  logging: true,
+  logging: console.log,
   define: {
     freezeTableName: true,
   },

@@ -4,7 +4,7 @@ export const dataSourceOptions = {
   dialect: 'sqlite',
   storage: 'database.db',
   synchronize: false,
-  logging: true,
+  logging: console.log,
   define: {
     freezeTableName: true,
   },

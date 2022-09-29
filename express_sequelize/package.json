@@ -4,7 +4,7 @@
   "description": "NodeJs/TypeScript test",
   "main": "index.js",
   "scripts": {
-    "serve": "nodemon",
+    "start": "nodemon",
     "typeorm": "typeorm-ts-node-commonjs",
     "migrate": "tsc && sequelize-cli db:migrate",
     "test": "jest --detectOpenHandles",
