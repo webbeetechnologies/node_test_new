@@ -1,6 +1,6 @@
 {
-  "name": "nestjs-test",
-  "version": "0.0.1",
+  "name": "nest_sequelize",
+  "version": "1.0.0",
   "description": "",
   "author": "",
   "private": true,
@@ -78,5 +78,17 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbeetechnologies/node_test_new.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webbeetechnologies/node_test_new/issues"
+  },
+  "homepage": "https://github.com/webbeetechnologies/node_test_new#readme"
 }

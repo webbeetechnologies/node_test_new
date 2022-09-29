@@ -1,0 +1,21 @@
+{
+  "name": "nestjs-test",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbeetechnologies/node_test_new.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webbeetechnologies/node_test_new/issues"
+  },
+  "homepage": "https://github.com/webbeetechnologies/node_test_new#readme",
+  "workspaces": [
+    "nest_sequelize",
+    "nest_typeorm",
+    "express_typeorm",
+    "express_sequelize"
+  ]
+}

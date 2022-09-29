@@ -4,7 +4,7 @@
   "description": "NodeJs/TypeScript test",
   "main": "index.js",
   "scripts": {
-    "serve": "nodemon",
+    "start": "nodemon",
     "typeorm": "typeorm-ts-node-commonjs",
     "migrate": "npm run typeorm migration:run -- -d src/conf/migration-config.ts",
     "test": "jest --detectOpenHandles",
@@ -60,5 +60,13 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbeetechnologies/node_test_new.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webbeetechnologies/node_test_new/issues"
+  },
+  "homepage": "https://github.com/webbeetechnologies/node_test_new#readme"
 }
