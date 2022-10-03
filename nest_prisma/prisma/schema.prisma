@@ -1,0 +1,40 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Event {
+  id        Int      @id @default(autoincrement())
+  name      String
+  createdAt DateTime @default(dbgenerated("CURRENT_TIMESTAMP"))
+
+  @@map("events")
+}
+
+model MenuItem {
+  id        Int      @id @default(autoincrement())
+  name      String
+  url       String
+  parentId  Int?
+  createdAt DateTime @default(dbgenerated("CURRENT_TIMESTAMP"))
+
+  @@map("menu_items")
+}
+
+model Workshop {
+  id        Int      @id @default(autoincrement())
+  name      String
+  eventId   Int
+  createdAt DateTime @default(dbgenerated("CURRENT_TIMESTAMP"))
+  start     DateTime
+  end       DateTime
+
+  @@map("workshops")
+}

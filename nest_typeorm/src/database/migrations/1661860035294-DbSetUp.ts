@@ -34,7 +34,7 @@ export class DbSetUp1661860035294 implements MigrationInterface {
           {
             name: 'createdAt',
             type: 'timestamp',
-            default: 'now()',
+            default: 'CURRENT_TIMESTAMP',
           },
         ],
       }),
@@ -65,7 +65,7 @@ export class DbSetUp1661860035294 implements MigrationInterface {
           {
             name: 'createdAt',
             type: 'timestamp',
-            default: 'now()',
+            default: 'CURRENT_TIMESTAMP',
           },
         ],
       }),
@@ -87,7 +87,7 @@ export class DbSetUp1661860035294 implements MigrationInterface {
           {
             name: 'createdAt',
             type: 'timestamp',
-            default: 'now()',
+            default: 'CURRENT_TIMESTAMP',
           },
           { name: 'start', type: 'timestamp' },
           { name: 'end', type: 'timestamp' },
