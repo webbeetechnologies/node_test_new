@@ -6,6 +6,7 @@ export class MenuItemsService {
   /* TODO: complete getMenuItems so that it returns a nested menu structure
     Requirements:
     - your code should result in EXACTLY one SQL query no matter the nesting level or the amount of menu items.
+    - post process your results in javascript
     - it should work for infinite level of depth (children of childrens children of childrens children, ...)
     - verify your solution with `npm run test`
     - do a `git commit && git push` after you are done or when the time limit is over
