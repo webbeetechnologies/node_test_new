@@ -6,6 +6,8 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
+    "prestart": "prisma generate",
+    "pretest": "prisma generate",
     "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -19,7 +21,7 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand --detectOpenHandles",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "migrate": "ts-node prisma/cli/migration-up.ts",
+    "migrate": "prisma generate && ts-node prisma/cli/migration-up.ts",
     "migrate:down": "ts-node prisma/cli/migration-down.ts"
   },
   "dependencies": {

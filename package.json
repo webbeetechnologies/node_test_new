@@ -12,6 +12,9 @@
     "url": "https://github.com/webbeetechnologies/node_test_new/issues"
   },
   "homepage": "https://github.com/webbeetechnologies/node_test_new#readme",
+  "scripts": {
+    "postinstall": "npm exec -w nest_prisma prisma generate && npm exec -w express_prisma prisma generate"
+  },
   "workspaces": [
     "nest_sequelize",
     "nest_typeorm",
