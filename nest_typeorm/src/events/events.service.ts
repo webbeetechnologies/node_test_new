@@ -15,10 +15,11 @@ export class EventsService {
   }
 
   /* TODO: complete getEventsWithWorkshops so that it returns all events including the workshops
-    Requirements:
+     Requirements:
     - maximum 2 sql queries
     - verify your solution with `npm run test`
     - do a `git commit && git push` after you are done or when the time limit is over
+    - Don't post process query result in javascript
     Hints:
     - open the `src/events/events.service` file
     - partial or not working answers also get graded so make sure you commit what you have
@@ -103,6 +104,7 @@ export class EventsService {
     - all filtering of records should happen in the database
     - verify your solution with `npm run test`
     - do a `git commit && git push` after you are done or when the time limit is over
+    - Don't post process query result in javascript
     Hints:
     - open the `src/events/events.service.ts` file
     - partial or not working answers also get graded so make sure you commit what you have
