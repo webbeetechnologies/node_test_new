@@ -1,5 +1,5 @@
 {
-  "name": "express_typeorm_test",
+  "name": "express_prisma",
   "version": "1.0.0",
   "description": "NodeJs/TypeScript test",
   "main": "index.js",
