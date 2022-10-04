@@ -16,6 +16,7 @@
     "nest_sequelize",
     "nest_typeorm",
     "nest_prisma",
+    "express_prisma",
     "express_typeorm",
     "express_sequelize"
   ]
