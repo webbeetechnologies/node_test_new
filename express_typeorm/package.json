@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon",
     "typeorm": "typeorm-ts-node-commonjs",
-    "migrate": "npm run typeorm migration:run -- -d src/conf/migration-config.ts",
+    "migrate": "npm run typeorm migration:run -- -d src/conf/migration-config.ts -t=false",
     "test": "jest --detectOpenHandles",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",

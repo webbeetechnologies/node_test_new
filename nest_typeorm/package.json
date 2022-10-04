@@ -20,7 +20,7 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand --detectOpenHandles",
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "typeorm": "typeorm-ts-node-commonjs",
-    "migrate": "npm run typeorm migration:run -- -d src/config/typeorm.config-migrations.ts"
+    "migrate": "npm run typeorm migration:run -- -d src/config/typeorm.config-migrations.ts -t=false"
   },
   "dependencies": {
     "@nestjs/common": "^9.0.0",
