@@ -1,3 +1,5 @@
+**Minimum Node Version: 16.5 or higher**
+
 Get started:
 
 - create your own repo (for example on www.github.com)
